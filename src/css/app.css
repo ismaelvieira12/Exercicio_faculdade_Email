@@ -89,3 +89,29 @@ form{
         color: #F29559;
     }
 }
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 480px) {
+    form{
+        width: 380px;
+
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .box-input p {
+        font-size: 13pt;
+    }
+
+    #email {
+        width: 85% !important;
+        font-size: 13pt;
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 13pt;
+        height: 45px;
+    }
+}
