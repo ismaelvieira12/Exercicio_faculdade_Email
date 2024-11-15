@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
 
     //verifica se o email é valido ou não.
     if(regex.test(inputEmail)){
-        alert('O email digita é válido.');
+        alert('O email digitado é válido.');
 
     }else{
         alert("[ERRO!], O email digitado não é válido!");
